@@ -4,12 +4,16 @@
 
 body {
     background-color: #ecf2f8;
-    font-family: "Barlow Semi Condensed", sans-serif; 
+    font-family: "Barlow Semi Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h4 {
     opacity: 0.89;
 }
+
 #testimonial-grid-container {
     padding: 25px 15px;
 }
@@ -32,7 +36,9 @@ h4 {
 .intro {
     line-height: 1.2;
 }
-#container3, #container5 {
+
+#container3,
+#container5 {
     background-color: white;
     color: #48556a;
 }
@@ -91,6 +97,7 @@ img {
 }
 
 @media (min-width: 576px) {
+
     #testimonial-grid-container,
     #top,
     #bottom,
@@ -105,7 +112,7 @@ img {
 
     #container5 {
         flex-basis: 22.5%;
-    }  
+    }
 
     #main-left {
         flex-direction: column;
@@ -122,7 +129,7 @@ img {
         flex-basis: 31%;
     }
 
-    #main-left  {
+    #main-left {
         margin-right: 25px;
     }
 
@@ -131,8 +138,9 @@ img {
         max-width: 1440px;
         margin: 0 auto;
     }
-    
-    #container2, #container4 {
+
+    #container2,
+    #container4 {
         margin-left: 25px;
     }
 }
